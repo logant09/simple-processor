@@ -2,11 +2,17 @@
 Simple 16-bit Processor in Verilog
 
 Instruction format is 32-bit:
+
 [31:27] op_type
+
 [26:22] destreg
+
 [21:17] srcreg
+
 [16]    immediate?
+
 [15:11] srcreg2
+
 [10:0]  unused
 
 if immediate:
