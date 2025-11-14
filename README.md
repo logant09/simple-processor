@@ -2,10 +2,9 @@
 Simple 16-bit Processor in Verilog
 
 Instruction format is 32-bit:
+
  IR [31:27]  [26:22]  [21:17]  [16]  [15:11]  [10:0]
- 
     op_type  destreg  srcreg   imm?  srcreg2  unused
-    
                        if immediate: |<----imm----->|
 
 Instructions in inst_data.mem for testbench are as follows:
