@@ -16,6 +16,7 @@ Instruction format is 32-bit:
 [10:0]  unused
 
 if immediate:
+
 [15:0]  immediate value
 
 Instructions in inst_data.mem for testbench are as follows:
